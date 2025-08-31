@@ -1,22 +1,29 @@
-# OpenFI – Automated Deposit Script
-
-This repository contains a Python script to **supply PHRS into OpenFI** by calling the `depositETH` method on the lending pool contract.  
-It supports **multiple wallets**, **randomized deposit amounts**, and **multiple transactions per wallet**.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8%2B-blue"/>
+  <img src="https://img.shields.io/badge/Web3.py-✅-green"/>
+  <img src="https://img.shields.io/badge/Dependencies-Installed-yellow"/>
+  <img src="https://img.shields.io/badge/Last_Update-August%2031%2C%202025-blueviolet"/>
+</p>
 
 ---
 
-## ✨ Features
-- Reads private keys from `pvt.txt`
-- Connects to OpenFI via Web3
-- Executes `depositETH` calls
-- User input for:
-  - **Minimum amount (PHRS)**
-  - **Maximum amount (PHRS)**
-  - **Number of transactions per wallet**
-- Randomizes deposit amount between min and max
-- Signs & sends transactions automatically
-- Prints transaction hash, block, and status
-- Handles insufficient balance gracefully
+<p align="center">
+  Automate <b>PHRS deposits</b> into the <b>OpenFI Lending Pool</b> using multiple wallets with randomized amounts.  
+  🚀 Fully interactive script with per-wallet controls, randomization, and transaction batching.
+</p>
+
+---
+
+## 📌 Features
+
+- ✅ Works with **all wallets** listed in `pvt.txt`  
+- ✅ Executes **multiple transactions per wallet**  
+- ✅ Randomizes deposit amounts between **min and max values**  
+- ✅ Lets you define **number of transactions per wallet**  
+- ✅ Automatic signing & broadcasting of raw transactions  
+- ✅ Shows **txn hash, block number, and status**  
+- ✅ Handles insufficient balance gracefully  
+- ✅ Simple **command-line prompts** for easy setup  
 
 ---
 
